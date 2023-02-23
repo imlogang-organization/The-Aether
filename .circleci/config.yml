@@ -10,8 +10,8 @@ parameters:
 
 jobs:
   build:
-    docker:
-      - image: cimg/openjdk:17.0.5
+    machine:
+      image: ubuntu-2204:2023.02.1
     resource_class: large
     environment:
       _JAVA_OPTIONS: -Xmx9600m
