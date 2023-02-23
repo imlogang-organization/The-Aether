@@ -10,7 +10,7 @@ parameters:
 
 jobs:
   build:
-    docker
+    docker:
       - image: cimg/openjdk:17.0.5
     resource_class: large
     environment:
